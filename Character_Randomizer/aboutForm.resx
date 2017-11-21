@@ -117,13 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="rtbAboutText.Text" xml:space="preserve">
-    <value>Character Randomizer 2.0
-Version 2.50.1
+  <data name="rtb_About.Text" xml:space="preserve">
+    <value>Character Randomizer 
+Version 0.1.2 
 
 A simple random character generator. Mainly focused around Animal-based Characters. 
 
-Program (c) Mochaccino 
+Program (c) MochaccinoWolf 
 Program created May 2017
 
 One of my projects on Github: 

@@ -16,5 +16,13 @@ namespace Character_Randomizer
         {
             InitializeComponent();
         }
+
+        private void rtbAboutText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        
+       
     }
 }

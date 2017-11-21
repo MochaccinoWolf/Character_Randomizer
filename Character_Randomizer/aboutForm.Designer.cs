@@ -29,33 +29,24 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(aboutForm));
-            this.rtbAboutText = new System.Windows.Forms.RichTextBox();
+            this.rtb_About = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
-            // rtbAboutText
+            // rtb_About
             // 
-            this.rtbAboutText.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rtbAboutText.Cursor = System.Windows.Forms.Cursors.Default;
-            this.rtbAboutText.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rtbAboutText.Enabled = false;
-            this.rtbAboutText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtbAboutText.Location = new System.Drawing.Point(0, 0);
-            this.rtbAboutText.Margin = new System.Windows.Forms.Padding(4);
-            this.rtbAboutText.Name = "rtbAboutText";
-            this.rtbAboutText.ReadOnly = true;
-            this.rtbAboutText.Size = new System.Drawing.Size(405, 319);
-            this.rtbAboutText.TabIndex = 0;
-            this.rtbAboutText.TabStop = false;
-            this.rtbAboutText.Text = resources.GetString("rtbAboutText.Text");
+            this.rtb_About.Location = new System.Drawing.Point(12, 12);
+            this.rtb_About.Name = "rtb_About";
+            this.rtb_About.Size = new System.Drawing.Size(279, 189);
+            this.rtb_About.TabIndex = 0;
+            this.rtb_About.Text = resources.GetString("rtb_About.Text");
             // 
             // aboutForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(405, 319);
-            this.Controls.Add(this.rtbAboutText);
+            this.ClientSize = new System.Drawing.Size(304, 259);
+            this.Controls.Add(this.rtb_About);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "aboutForm";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
@@ -67,6 +58,6 @@
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox rtbAboutText;
+        private System.Windows.Forms.RichTextBox rtb_About;
     }
 }
